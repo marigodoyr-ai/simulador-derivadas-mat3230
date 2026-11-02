@@ -79,3 +79,16 @@ st.write(
 st.caption(
     "Modelo matemático didáctico. No representa datos reales de una empresa."
 )
+st.divider()
+
+st.markdown(
+    """
+    <div style="text-align: center; color: #64748b; font-size: 14px;">
+        Recurso educativo elaborado por<br>
+        <strong>🌺 Prof. Marina Godoy Rivas</strong><br>
+        Cálculo Diferencial e Integral · MAT3230<br>
+        Ingeniería Industrial · Duoc UC
+    </div>
+    """,
+    unsafe_allow_html=True
+)
